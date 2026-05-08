@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Be polite to crawlers
+Crawl-delay: 1
+
+Sitemap: https://www.daboiyoshi.com/sitemap.xml

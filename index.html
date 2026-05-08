@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07090d">
+  <meta name="color-scheme" content="dark">
+
+  <title>Snake Arcade — Browser games, tools & experiments by daboiYoshi</title>
+  <meta name="description" content="Snake Arcade is a free collection of browser games, creative tools, and HTML experiments by daboiYoshi. Play Snake, paint, generate QR codes, run a zen timer — all in your browser, no install required.">
+  <meta name="author" content="daboiYoshi">
+  <link rel="canonical" href="https://www.daboiyoshi.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Snake Arcade — Browser games, tools & experiments by daboiYoshi">
+  <meta property="og:description" content="Snake Arcade is a free collection of browser games, creative tools, and HTML experiments by daboiYoshi. Play Snake, paint, generate QR codes, run a zen timer — all in your browser, no install required.">
+  <meta property="og:url" content="https://www.daboiyoshi.com/">
+  <meta property="og:site_name" content="Snake Arcade">
+  <meta property="og:image" content="https://www.daboiyoshi.com/assets/images/og-cover.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Snake Arcade — Browser games, tools & experiments by daboiYoshi">
+  <meta name="twitter:description" content="Snake Arcade is a free collection of browser games, creative tools, and HTML experiments by daboiYoshi. Play Snake, paint, generate QR codes, run a zen timer — all in your browser, no install required.">
+  <meta name="twitter:image" content="https://www.daboiyoshi.com/assets/images/og-cover.png">
+
+  <!-- Icons / manifest -->
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+  <link rel="alternate icon" href="./assets/images/favicon.ico">
+  <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="./assets/css/main.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Snake Arcade \u2014 Browser games, tools & experiments by daboiYoshi","url":"https://www.daboiyoshi.com/","description":"Snake Arcade is a free collection of browser games, creative tools, and HTML experiments by daboiYoshi. Play Snake, paint, generate QR codes, run a zen timer \u2014 all in your browser, no install required.","publisher":{"@type":"Organization","name":"Snake Arcade","url":"https://www.daboiyoshi.com"},"potentialAction":{"@type":"SearchAction","target":"https://www.daboiyoshi.com/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
+  
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="./" class="brand" aria-label="Snake Arcade — home">
+      <span class="brand-mark" aria-hidden="true">SA</span>
+      <span>SNAKE ARCADE</span>
+    </a>
+    <button class="nav-toggle" data-nav-toggle aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="3" y1="6"  x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <nav class="primary-nav" id="primary-nav" data-primary-nav data-open="false" aria-label="Primary">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="./tools-experiments/">Tools</a></li>
+        <li><a href="./about/">About</a></li>
+        <li><a href="./home/downloads.html">Downloads</a></li>
+        <li><a href="https://docs.daboiyoshi.com" rel="noopener">CDN&nbsp;Docs↗</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="container">
+    <span class="hero-eyebrow">v1.0 · Final Game · 2026</span>
+    <h1>SNAKE <span class="accent">ARCADE</span><span class="cursor" aria-hidden="true"></span></h1>
+    <p class="hero-lead">
+      A growing collection of browser games, tools, and experiments
+      built in HTML by daboiYoshi and the Snake Arcade dev team. No accounts,
+      no installs, no tracking — just open a tab and play.
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="https://docs.daboiyoshi.com/game/index.html" rel="noopener">▶ Play Snake 1.0</a>
+      <a class="btn" href="tools-experiments/">Browse Tools</a>
+      <a class="btn btn-ghost" href="about/">About the project</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <h2>What's new</h2>
+      <a class="section-link" href="about/">View changelog →</a>
+    </div>
+    <div class="card-grid">
+      <a class="card" href="https://snakenet.daboiyoshi.com/" data-external="true" rel="noopener">
+        <span class="card-tag">Browser · macOS</span>
+        <h3 class="card-title">SnakeNet</h3>
+        <p class="card-desc">A simple, customizable web browser for macOS. Enter a URL, pick a color palette, browse. Windows .exe coming.</p>
+        <div class="card-meta"><span>NEW</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="https://define.daboiyoshi.com" data-external="true" rel="noopener">
+        <span class="card-tag">Reference</span>
+        <h3 class="card-title">Snake Definer</h3>
+        <p class="card-desc">Pocket dictionary that defines any English word. Mobile-optimized. Powered by Free Dictionary API.</p>
+        <div class="card-meta"><span>NEW</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="https://void-breach.daboiyoshi.com/" data-external="true" rel="noopener">
+        <span class="card-tag">Game · 3D</span>
+        <h3 class="card-title">Void Breach</h3>
+        <p class="card-desc">Our biggest game yet — now on its own subdomain. Updated and ready to play.</p>
+        <div class="card-meta"><span>UPDATED</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="https://docs.daboiyoshi.com/Snake-Paint/" data-external="true" rel="noopener">
+        <span class="card-tag">Creative</span>
+        <h3 class="card-title">Snake Paint</h3>
+        <p class="card-desc">HTML paint app — pencil, brush, eraser, fill, shapes, text, spray. Refreshed UI.</p>
+        <div class="card-meta"><span>UPDATED</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="https://docs.daboiyoshi.com/Snake-Media-Player/index.html" data-external="true" rel="noopener">
+        <span class="card-tag">Media</span>
+        <h3 class="card-title">Snake Media Player</h3>
+        <p class="card-desc">Drop in MP4, MKV, AVI, MOV, WebM, MP3, FLAC, WAV, OGG. All client-side.</p>
+        <div class="card-meta"><span>NEW</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="https://secure.daboiyoshi.com/" data-external="true" rel="noopener">
+        <span class="card-tag">Article</span>
+        <h3 class="card-title">HTTP vs HTTPS</h3>
+        <p class="card-desc">A short article on what changes when a site upgrades. Coded in XHTML format.</p>
+        <div class="card-meta"><span>READ</span><span class="arrow">→</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <h2>Featured tools</h2>
+      <a class="section-link" href="tools-experiments/">All 22 tools →</a>
+    </div>
+    <div class="card-grid">
+      <a class="card" href="qr-code-generator.html">
+        <span class="card-tag">Utility</span>
+        <h3 class="card-title">QR Code Generator</h3>
+        <p class="card-desc">Generate scannable QR codes for any text or URL — instant, free, in-browser.</p>
+        <div class="card-meta"><span>OPEN</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="zen-timer.html">
+        <span class="card-tag">Focus</span>
+        <h3 class="card-title">Zen Timer</h3>
+        <p class="card-desc">Calm break timer. Set it, breathe, come back when it chimes.</p>
+        <div class="card-meta"><span>OPEN</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="vapordrive.html">
+        <span class="card-tag">Aesthetic</span>
+        <h3 class="card-title">VaporDrive</h3>
+        <p class="card-desc">Synthwave timer — drift through the grid while a session ticks down.</p>
+        <div class="card-meta"><span>OPEN</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="freepassgen.html">
+        <span class="card-tag">Security</span>
+        <h3 class="card-title">FreePassGen</h3>
+        <p class="card-desc">Strong password generator — length, case, symbols, digits, all configurable.</p>
+        <div class="card-meta"><span>OPEN</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="snake-txt-editor.html">
+        <span class="card-tag">Editor</span>
+        <h3 class="card-title">Snake TXT Editor</h3>
+        <p class="card-desc">Lightweight text editor that runs entirely in your browser. Save locally, no signup.</p>
+        <div class="card-meta"><span>OPEN</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="https://docs.daboiyoshi.com/Multi-Convert//multi-convert.html" data-external="true" rel="noopener">
+        <span class="card-tag">Files</span>
+        <h3 class="card-title">MultiConvert</h3>
+        <p class="card-desc">Universal file converter — drop any file, pick a target format, download.</p>
+        <div class="card-meta"><span>LAUNCH</span><span class="arrow">→</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="banner">
+      Please review our <a href="https://docs.daboiyoshi.com/documents/Terms_Of_Service.pdf" rel="noopener">Terms of Service</a> and <a href="https://docs.daboiyoshi.com/documents/Privacy_Policy.pdf" rel="noopener">Privacy Policy</a>. We don't sell your data — ever.
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>Snake Arcade</h3>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./about/">About</a></li>
+          <li><a href="./about/copyright.html">Copyright</a></li>
+          <li><a href="./about/honorable-mentions.html">Honorable Mentions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Tools</h3>
+        <ul>
+          <li><a href="./tools-experiments/">All Tools</a></li>
+          <li><a href="./qr-code-generator.html">QR Generator</a></li>
+          <li><a href="./zen-timer.html">Zen Timer</a></li>
+          <li><a href="./vapordrive.html">VaporDrive</a></li>
+          <li><a href="./freepassgen.html">FreePassGen</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://docs.daboiyoshi.com" rel="noopener">CDN Docs</a></li>
+          <li><a href="https://docs.daboiyoshi.com/documents/Terms_Of_Service.pdf" rel="noopener">Terms of Service</a></li>
+          <li><a href="https://docs.daboiyoshi.com/documents/Privacy_Policy.pdf" rel="noopener">Privacy Policy</a></li>
+          <li><a href="https://docs.daboiyoshi.com/documents" rel="noopener">Documents</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="https://github.com/daboiYoshi" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.youtube.com/@daboiYoshi_tfsaviation" rel="noopener">YouTube</a></li>
+          <li><a href="mailto:info@daboiyoshi.com">info@daboiyoshi.com</a></li>
+          <li><a href="https://define.daboiyoshi.com" rel="noopener">Snake Definer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> daboiYoshi · Snake Arcade</span>
+      <span>Built with care · Hosted on GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>

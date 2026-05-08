@@ -1,0 +1,33 @@
+{
+  "name":             "Snake Arcade",
+  "short_name":       "Snake Arcade",
+  "description":      "Browser games, tools, and experiments by daboiYoshi.",
+  "start_url":        "/",
+  "scope":            "/",
+  "display":          "standalone",
+  "orientation":      "any",
+  "background_color": "#07090d",
+  "theme_color":      "#07090d",
+  "lang":             "en-US",
+  "categories":       ["games", "utilities", "productivity"],
+  "icons": [
+    {
+      "src":   "/assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type":  "image/png",
+      "purpose": "any"
+    },
+    {
+      "src":   "/assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type":  "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src":   "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type":  "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

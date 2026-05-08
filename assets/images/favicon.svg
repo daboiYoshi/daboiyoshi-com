@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Snake Arcade">
+  <rect width="64" height="64" rx="8" fill="#07090d"/>
+  <rect x="4" y="4" width="56" height="56" rx="6" fill="none" stroke="#39ff14" stroke-width="2"/>
+  <!-- snake body, pixel blocks -->
+  <g fill="#39ff14">
+    <rect x="14" y="14" width="8" height="8"/>
+    <rect x="22" y="14" width="8" height="8"/>
+    <rect x="30" y="14" width="8" height="8"/>
+    <rect x="30" y="22" width="8" height="8"/>
+    <rect x="30" y="30" width="8" height="8"/>
+    <rect x="22" y="30" width="8" height="8"/>
+    <rect x="14" y="30" width="8" height="8"/>
+    <rect x="14" y="38" width="8" height="8"/>
+    <rect x="14" y="46" width="8" height="8"/>
+    <rect x="22" y="46" width="8" height="8"/>
+    <rect x="30" y="46" width="8" height="8"/>
+    <rect x="38" y="46" width="8" height="8"/>
+  </g>
+  <!-- food pellet (cyan) -->
+  <rect x="46" y="22" width="6" height="6" fill="#00e1ff"/>
+</svg>
